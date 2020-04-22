@@ -1,0 +1,97 @@
+.container-1,.container-5{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+.flex-box-container-1{
+    display: flex;
+    border: 1px solid black;
+    padding: 1px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div{
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.container-2{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-box-container-2 , .flex-box-rps, .flex-box-pick-color,
+.flex-blackjack-row-1,.flex-blackject-row-2,.flex-blackject-row-3{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-box-container-2 img{
+    border: 1px solid black;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+    margin: 10px;
+}
+
+.container-3 , .container-4{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+
+.flex-box-pick-color button{
+    
+    margin: 10px;
+}
+
+.flex-blackjack-row-1,.flex-blackject-row-2{
+    background-image: url("/Static/images/background.jpg");
+    color: #ffffff;
+
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 350px;
+    justify-content: space-around;
+}
+
+
+.flex-blackject-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+.flex-blackjack-row-1 div img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+}
+
+table , th, td{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.flex-blackject-row-2 button{
+    border: 1px solid black;
+      
+}
